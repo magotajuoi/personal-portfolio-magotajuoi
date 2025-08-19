@@ -106,3 +106,21 @@ footer {
   border-radius: 12px;  /* Rounded corners for style */
   display: inline-block;
 }
+
+#projects {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.project {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
