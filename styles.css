@@ -95,3 +95,130 @@ footer {
   color: white;
   border-radius: 8px;
 }
+
+.profile {
+  text-align: center;   /* Centers the image inside the figure */
+  margin: 1rem 0;       /* Optional spacing */
+}
+
+.profile img {
+  max-width: 200px;     /* Adjust size if needed */
+  border-radius: 12px;  /* Rounded corners for style */
+  display: inline-block;
+}
+
+#projects {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.project {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.project h2 {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+/* Contact form styling */
+#contact form {
+  max-width: 500px;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#contact button {
+  padding: 0.75rem;
+  background-color: var(--primary-color, #333);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+  background-color: var(--accent-color, #555);
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--primary-color, #333);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* Landing Section */
+.landing {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.landing-content {
+  max-width: 700px;
+}
+
+.landing-content h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.landing-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+  background: #f39c12;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #d35400;
+}
