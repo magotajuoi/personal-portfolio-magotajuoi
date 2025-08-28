@@ -16,22 +16,28 @@
     </ul>
   </nav>
 
-  <section>
+  <section id="contact">
     <h1>Contact Me</h1>
     <form id="contact-form" method="post" action="#">
       <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br />
+      <input type="text" id="name" name="name" placeholder="Your name" required /><br />
 
       <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br />
+      <input type="email" id="email" name="email" placeholder="Your email" required /><br />
 
       <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="5" required></textarea><br />
+      <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea><br />
 
       <button type="submit">Send</button>
     </form>
-    <p>integrate EmailJS, Formspree, or other APIs for the form functionality.</p>
+   
   </section>
 
+  <footer>
+    <p>© 2025 My Portfolio | Connect with me: 
+      <a href="https://x.com/" target="_blank">X</a> | 
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
 </body>
 </html>
